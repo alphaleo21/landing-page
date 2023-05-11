@@ -50,3 +50,27 @@ a{
     padding: 2em;
     margin: 1em;
 }
+.section.two{
+    background-color: white;
+}
+h2{
+    color: #1F2937;
+    text-align: center;
+}
+.box-model{
+    color: #767677;  
+    display: flex; 
+}
+.boxArrange{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box{
+    border:3px solid cadetblue;
+    width: 100px;
+    height: 100px;
+}
