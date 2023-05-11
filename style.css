@@ -12,8 +12,7 @@ body{
     align-items: center;
     justify-content: center;
     width: 700px;
-    
-   
+    flex-wrap: wrap;
 }
 .header{
     background-color: #1F2937;
@@ -40,6 +39,8 @@ a{
     background-color: #1F2937;
     padding: 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .img-place{
     background-color: #767677;
@@ -81,6 +82,7 @@ h2{
     border-radius: 1em;
 }
 .section.three{
+    flex: 1 1 auto;
     text-align: center;
     padding: 3em;
     padding-bottom: 6px;
@@ -111,6 +113,7 @@ h2{
     display: flex;
     justify-content: flex-end;
     border-radius: 12px;
+    flex: 1;
 }
 .invert{
     width: 8em;
